@@ -5,12 +5,11 @@ body {
 }
 .article {
     width: 384px;
-    border: 1px solid gray;
+    border: 1px solid;
+    border-color: rgba(231,233,236,255);
     margin: 60px;
     padding: 20px;
-    border-color: rgba(231,233,236,255);
     background-color: white;
-    border-width: 1px;
 }
 .article-header {
     display: flex;
@@ -41,19 +40,24 @@ body {
     height: auto;
     margin: 10px 0;
 }
-.article-title {
+h4 {
     margin: 7px 0;
     font-family: Ubuntu;
     font-weight: 700;
     font-size: 14px;
 }
-.article-text {
+p {
     font-family: Ubuntu;
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.4;
 }
 header {
     background-color: white;
+    width: 100vw;
+    border: 1px solid;
+    border-color: rgba(231,233,236,255);
+    transform: translate(-1%, -10%);
 }
 .logo-container {
     display: flex;
@@ -86,6 +90,7 @@ header {
     width: 100vw;
     height: 17vh;
     object-fit:cover;
+    transform: translate(-1%, -10%);
 }
 .header-text {
     position: absolute;
@@ -142,10 +147,10 @@ header {
         height: 50px;
         transform: translate(25%, 25%);
     }
-    .article-text {
+    p {
         font-size: 28px;
     }
-    .article-title {
+    h4 {
         margin: 7px 0;
         font-family: Ubuntu;
         font-weight: 700;
@@ -155,4 +160,62 @@ header {
         font-weight: 700;
         font-size: 28px;
     }
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-color: rgba(231,233,236,255);
+    background-color: white;
+}
+
+.footer-title {
+    margin: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.footer-links-column {
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#heart-titre {
+    transform: translate(10%, 35%);
+}
+h3 {
+    font-family: Ubuntu;
+    font-weight: 400;
+}
+a{
+    font-family: Ubuntu;
+    color: black;
+}
+.faq {
+    display: flex;
+}
+.content {
+    width: 65%;
+    margin: 0px 120px;
+}
+.image-half {
+    width: 35%;
+    transform: translate(-1%, -1%);
+}
+.horaires {
+    display: flex;
+}
+.horaires-titre {
+    width: 30%;
 }
