@@ -219,3 +219,61 @@ a{
 .horaires-titre {
     width: 30%;
 }
+#search {
+    border-style: hidden;
+    width: 50%;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid rgba(231,233,236,255);
+    border-radius: 50px;
+}
+.jobs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Ubuntu;
+    padding: 20px;
+}
+.table {
+    margin: 0px 10vw;
+}
+.table th{
+        padding: 12px;
+        text-align: left;
+        font-weight: 400;
+        background-color: rgba(231,233,236,255);
+        color: black;
+}
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.index {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: auto;
+}
+.homepage-components {
+    display: flex;
+    width: 60vw;
+    height: 35vh;
+}
+.components-content {
+    margin: 3%;
+}
+.components-content p {
+    font-size: 12px;
+}
+.components-content h4 {
+    font-size: 14px;
+}
+.components-image {
+    height: 30vh;
+    width: 220vw;
+    object-fit:cover;
+    padding: 25px;
+}
